@@ -2,6 +2,6 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # acp_2021
-**Kuchar, A. et al
+**Kuchar, A. et al**
 
 Code for the paper submitted to ?
