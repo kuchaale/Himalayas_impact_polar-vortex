@@ -20,7 +20,7 @@ Notebooks for each individual figure as well as for two data tables are in the [
 |  4 | [Composites of anomalies documenting evolution total column ozone for CMAM](plots/TO3_anomalies_lagA_FDR.pdf) | [toz_anomalies_CMAM.ipynb](code/toz_anomalies_CMAM.ipynb)                     |       [composite_example_ERA5.py](code/composite_example_ERA5.py)                                                                                                                     |
 |  5 | [Effective_diffusivity composite at 450 K](plots/effective_diffusivity_HI-composite@450K_pv_FDR-xcontour.pdf)                                                                                      | [effective_diffusivity_HI_composite-pv-xcontour.ipynb](code/effective_diffusivity_HI_composite-pv-xcontour.ipynb)                           |                 [xcontour_isoentropic_CMAM-script.py](code/xcontour_isoentropic_CMAM-script.py)                                                                                                       |
 |  6 | [Composite anomalies of Eliassen-Palm flux](plots/EPflux-analysis_Himalayas_anomalies_20days_zm_wEPFDsignificancetropopause_DJFonly_pvalue005_lags0357_FDR.pdf)                                               | [GRL_reproduce_Fig1_Himalayas_lagA.ipynb](code/GRL_reproduce_Fig1_Himalayas_lagA.ipynb)                     |                                                                        |
-|  7 | [Composite anomalies of refractive index and zonally averaged OGWD](plots/OGWDzm+refr_lagA_composite_CI_daily.pdf)                                                  | [OGWD+refr_index_himalayas_composite_lagA.ipy](code/OGWD+refr_index_himalayas_composite_lagA.ipy)               |                                                                                                                           |
+|  7 | [Composite anomalies of refractive index and zonally averaged OGWD](plots/OGWDzm+refr_lagA_composite_CI_daily.pdf)                                                  | [OGWD+refr_index_himalayas_composite_lagA.ipynb](code/OGWD+refr_index_himalayas_composite_lagA.ipy)               |   [refraction_index_calc.py](code/refraction_index_calc.py)                                                                                                                        |
 
 
 #### Supplementary figures
@@ -30,7 +30,6 @@ Notebooks for each individual figure as well as for two data tables are in the [
 |  S2 | [Residual circulation and ozone anomalies composite](plots/vmro3+RC_percentages_all_20days_zm_wabsolutevaluesandtropopause_DJFonly_HIonly.pdf)                                               | [chap3_vykreslovani_dizertace_new-DJFonly-tropo-strato-meso.ipynb](code/chap3_vykreslovani_dizertace_new-DJFonly-tropo-strato-meso.ipynb)                     | |
 | S3 | Composites in absolute values documenting total column ozone in [CMAM](plots/TO3_CMAM30-SD_himalayas_composite_verif_fig.pdf), [MERRA2](plots/TO3_MERRA2_himalayas_composite_verif_fig.pdf), and [ERA5](plots/TO3_ERA5_himalayas_composite_verif_fig.pdf)                                                                             | [total_ozone_MERRA2_opendap_vs_CMAM30SD.ipynb](code/rtotal_ozone_MERRA2_opendap_vs_CMAM30SD.ipynb)                       |                                          [composite_example_ERA5.py](code/composite_example_ERA5.py)                                                                                          |
 |  S4 | [Age of air anomalies](plots/stmeanage@7000Pa_anomalies_allwclim_20days_PlateCarree_DJFonly+HIonly.pdf)                                                                              | [reproduce_Fig5+S3.ipynb](code/reproduce_Fig5+S3.ipynb)                       |                                                                                                                                    |
-|  S5 | [Vertical component of anomalous and absolute Plumb flux](plots/Fz_plumb_anomalies_all_20days_lag0_only70hPa.pdf)                                                                              | [Plumb_flux_analysis_Himalayas.ipynb](code/Plumb_flux_analysis_Himalayas.ipynb)                       |   [?](code/?.ipynb)                                                                                                                                 |
 |  Html | [interactive file showing Empirical distribution function of interpeak timescales](plots/ecdf_interpeak_times.html)                                                                              | [interpeak_times_analysis.ipynb](code/interpeak_times_analysis.ipynb)                       |                                                                                                                                    |
                                                   
 
@@ -39,6 +38,7 @@ Notebooks for each individual figure as well as for two data tables are in the [
     
     
 ### Auxiliar notebooks:
+- [Plumb_flux_analysis_Himalayas.ipynb](code/Plumb_flux_analysis_Himalayas.ipynb) + ?
 - [refractive_index_lagA.ipynb](code/refractive_index_lagA.ipynb)
 - [VMFC_ERA5_composite.ipynb](code/VMFC_ERA5_composite.ipynb)
 - [predictability_wavenumbers.ipynb](code/predictability_wavenumbers.ipynb)
@@ -46,7 +46,7 @@ Notebooks for each individual figure as well as for two data tables are in the [
 - [OGWD_trendanalysis_CCMI-SD.ipynb](code/OGWD_trendanalysis_CCMI-SD.ipynb)
 - [influx_figure_using_composites.ipynb](code/influx_figure_using_composites.ipynb)
 - [EPFD_lagA_again.ipynb](code/EPFD_lagA_again.ipynb)
-- [eoapps_vs_xcontour.ipynb](code/geoapps_vs_xcontour.ipynb)
+- [geoapps_vs_xcontour.ipynb](code/geoapps_vs_xcontour.ipynb)
 - [xcontour_isoentropic_CMAM.ipynb](code/xcontour_isoentropic_CMAM.ipynb)
 - [OGWD_himalayas_composite_lagA.ipynb](code/OGWD_himalayas_composite_lagA.ipynb)
 - [vmrh2o_composite.ipynb](code/vmrh2o_composite.ipynb)
