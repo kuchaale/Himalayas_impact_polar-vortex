@@ -2,10 +2,10 @@
 [![Python 3.7](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-369/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-# On the impact of the Himalayas on the polar vortex
+# On the impact of Himalaya-induced gravity waves on the polar vortex, Rossby wave activity and ozone
 **A. Kuchar, P. Sacha, R. Eichinger, Ch. Jacobi, P. Pisoft, and H. Rieder**
 
-Submitted to [?](?).
+Submitted to [Atmospheric Chemistry and Physics](https://egusphere.copernicus.org/preprints/2022/egusphere-2022-474/).
 
 Code used to process and visualise the model and other data outputs in order to reproduce figures in the manuscript.
 Model data are available [here](http://climate-modelling.canada.ca/climatemodeldata/cmam/output/CMAM/CMAM30-SD/index.shtml). All datasets already preprocessed can be found [here](?).
